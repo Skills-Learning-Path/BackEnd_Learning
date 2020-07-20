@@ -52,3 +52,6 @@
 -   [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [code](./算法题/Leetcode/141.java)
 -   [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) [code](./算法题/Leetcode/142.java)
 
+## LICENSE
+
+[LICENSE](./LICENSE)
