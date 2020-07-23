@@ -15,6 +15,7 @@
 -   [反射与注解、Junit单元测试与枚举](./Java/011.md)
 -   [NIO、UML与动态代理](./Java/012.md)
 -   [设计模式](./Java/013.md)
+-   [Maven与并发编程](./Java/014.md)
 
 
 
@@ -51,6 +52,12 @@
 -   [100. Same Tree](https://leetcode.com/problems/same-tree/) [code](./算法题/Leetcode/100.java)
 -   [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) [code](./算法题/Leetcode/141.java)
 -   [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) [code](./算法题/Leetcode/142.java)
+
+## References
+
+-   https://space.bilibili.com/95256449/channel/index
+
+-   https://space.bilibili.com/425576028/channel/detail?cid=79628
 
 ## LICENSE
 
