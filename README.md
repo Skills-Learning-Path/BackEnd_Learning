@@ -20,6 +20,7 @@
 -   [设计模式](./Java/Java-SE/013.md)
 -   [Maven与并发编程](./Java/Java-SE/014.md)
 -   [Java虚拟机](./Java/Java-SE/015.md)
+-   [Java集合类分析](./Java/Java-SE/016.md)
 
 ### Java Web
 
