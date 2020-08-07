@@ -31,6 +31,8 @@
 -   [HTML入门](./Java/Java-Web/前端/基础/001.md)
 -   [CSS入门](./Java/Java-Web/前端/基础/002.md)
 -   [JS入门](./Java/Java-Web/前端/基础/003.md)
+-   [JQuery](./Java/Java-Web/前端/框架/JQuery/001.md)
+-   [XML](./Java/Java-Web/前端/基础/004.md)
 
 ## 基础
 
