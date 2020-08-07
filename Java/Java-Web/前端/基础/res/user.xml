@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<students>
+    <student number="1234">
+        <name>aaa</name>
+        <age>21</age>
+        <gender>male</gender>
+    </student>
+</students>

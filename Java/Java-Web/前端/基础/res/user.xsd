@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns="#" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="#" elementFormDefault="qualified">
+    <xsd:element name="students" type="studentsType"></xsd:element>
+    <xsd:complexType name="studentsType">
+        <xsd:sequence>
+            <xsd:element name="student" type="studentType" minOccurs="0" maxOccurs="unbounded"></xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+    <xsd:complexType name="studentType">
+        <xsd:sequence>
+            <xsd:element name="name" type="xsd:string"></xsd:element>
+            <xsd:element name="age" type="ageType"></xsd:element>
+            <xsd:element name="gender" type="genderType"></xsd:element>
+        </xsd:sequence>
+        <xsd:attribute name="number" type="numberType" use="required"></xsd:attribute>
+    </xsd:complexType>
+    <xsd:simpleType name="ageType">
+        <xsd:restriction base="xsd:integer">
+            <xsd:minInclusive value="0"></xsd:minInclusive>
+            <xsd:maxInclusive value="256"></xsd:maxInclusive>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="genderType">
+        <xsd:restriction base="xsd:string">
+            <xsd:enumeration value="male"></xsd:enumeration>
+            <xsd:enumeration value="female"></xsd:enumeration>
+        </xsd:restriction>
+    </xsd:simpleType>
+    <xsd:simpleType name="numberType">
+        <xsd:restriction base="xsd:string">
+            <xsd:pattern value="\d{4}"></xsd:pattern>
+        </xsd:restriction>
+    </xsd:simpleType>
+</xsd:schema>
