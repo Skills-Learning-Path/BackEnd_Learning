@@ -2,6 +2,8 @@
 
 学习笔记总结
 
+**若图片无法正常显示，可以将仓库clone到本地查看**
+
 ## Java
 
 ### Java基础
@@ -33,6 +35,7 @@
 -   [JS入门](./Java/Java-Web/前端/基础/003.md)
 -   [JQuery](./Java/Java-Web/前端/框架/JQuery/001.md)
 -   [XML](./Java/Java-Web/前端/基础/004.md)
+-   [AJAX](./Java/Java-Web/前端/框架/JQuery/002.md)
 
 ## 基础
 
