@@ -30,14 +30,14 @@
 
 -   [MySQL数据库](./Java/Java-Web/数据库/MySQL/001.md)
 -   [JDBC](./Java/Java-Web/数据库/MySQL/002.md)
--   [HTML入门](./Java/Java-Web/前端/基础/001.md)
--   [CSS入门](./Java/Java-Web/前端/基础/002.md)
--   [JS入门](./Java/Java-Web/前端/基础/003.md)
+-   [HTML](./Java/Java-Web/前端/基础/001.md)
+-   [CSS](./Java/Java-Web/前端/基础/002.md)
+-   [JS](./Java/Java-Web/前端/基础/003.md)
 -   [JQuery](./Java/Java-Web/前端/框架/JQuery/001.md)
 -   [XML](./Java/Java-Web/前端/基础/004.md)
 -   [AJAX](./Java/Java-Web/前端/框架/JQuery/002.md)
 -   [BootStrap](./Java/Java-Web/前端/框架/BootStrap/001.md)
--   [Vue入门](./Java/Java-Web/前端/框架/Vue/001.md)
+-   [Vue](./Java/Java-Web/前端/框架/Vue/001.md)
 -   [Web入门](./Java/Java-Web/后端/基础/001.md)
 
 ## 基础
