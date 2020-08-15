@@ -56,6 +56,7 @@ public class Main {
         TreeNode root = new TreeNode(pre[pStart]);
         for (int i=iStart; i<=iEnd; i++){
             if(in[i]==pre[pStart]){
+		//pStart+ `distance from iStart to the root in `in` array`
                 root.left = constructTree(pre,pStart+1, pStart+i-iStart, in, iStart, i-1);
                 root.right = constructTree(pre,pStart+i-iStart+1, pEnd, in, i+1, iEnd);
                 break;
