@@ -7,32 +7,16 @@ import java.util.*;
 
 public class Main {
 
-    public static double power(double base, int exp){
-        if(exp==0){
+    public static double power(double x, int n){
+        if (n == 0)
             return 1;
-        }
-        else{
-            double temp = positivePower(base, Math.abs(exp));
-            return exp<0?1/temp:temp;
-        }
+    	//如果n小于0，把它改为正数，并且把1/x提取出来一个
+        if (n < 0)
+            return 1 / x * myPow(1 / x, -n - 1);
+        return (n % 2 == 0) ? myPow(x * x, n / 2) : x * myPow(x * x, n / 2);
     }
 
-    public static double positivePower(double base, int exp){
-        if(exp==0){
-            return 1;
-        }
-        else if(exp==1){
-            return base;
-        }
-        else{
-            double temp = positivePower(base, exp>>1);//exp/2
-            double res=temp*temp;
-            if((exp&0x1)==1){//exp%2==1
-                res=res*base;
-            }
-            return res;
-        }
-    }
+    
 
     public static void main(String []args) throws Exception {
         System.out.println(power(5, 3));

@@ -5,10 +5,13 @@
 public class Main {
 
     public static boolean find(int target, int[][] a){
-        if(a.length==0||a[0].length==0) return false;
+         if(a.length==0||a[0].length==0) return false;
         int i=0;
         int j=a[0].length-1;
         int ele=a[i][j];
+        if(target==ele){
+            return true;
+        }
         while(target!=ele){
             if(i<a.length&&j>=0){
                 ele=a[i][j];
@@ -27,6 +30,7 @@ public class Main {
             }
         }
         return false;
+    
     }
     
 
