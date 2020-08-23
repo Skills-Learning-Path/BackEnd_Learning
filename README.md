@@ -50,6 +50,7 @@
 ### Linux
 
 -   [Linux入门](./Java/Linux/001.md)
+-   [Vim编辑器](./Java/Linux/002.md)
 
 ## 基础
 
