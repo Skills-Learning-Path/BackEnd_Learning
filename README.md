@@ -51,6 +51,7 @@
 
 -   [Linux入门](./Java/Linux/001.md)
 -   [Vim编辑器](./Java/Linux/002.md)
+-   [Linux进阶](./Java/Linux/003.md)
 
 ## 基础
 
