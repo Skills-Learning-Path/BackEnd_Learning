@@ -56,6 +56,7 @@
 -   [Shell工具](./Java/Linux/Shell/002.md)
 -   [Git基础](./Java/Linux/Git/001.md)
 -   [Nginx简介](./Java/Linux/Nginx/001.md)
+-   [Nginx进阶](./Java/Linux/Nginx/002.md)
 
 ## 基础
 
