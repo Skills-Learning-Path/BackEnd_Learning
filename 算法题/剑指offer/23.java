@@ -4,20 +4,7 @@
 import java.util.*;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.stream.Collectors;
-//class ListNode{
-//    int val;
-//    ListNode next;
-//
-//    public ListNode(int val, ListNode next) {
-//        this.val = val;
-//        this.next = next;
-//    }
-//
-//    public ListNode(int val) {
-//        this.val = val;
-//        this.next=null;
-//    }
-//}
+
 class TreeNode{
     int val;
     TreeNode left;
