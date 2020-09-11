@@ -1,4 +1,4 @@
-# CS NOTES
+# 后端相关
 
 学习笔记总结
 
@@ -58,16 +58,6 @@
 -   [Nginx简介](./Java/Linux/Nginx/001.md)
 -   [Nginx进阶](./Java/Linux/Nginx/002.md)
 -   [Docker简介](./Java/Linux/Docker/001.md)
-
-## 基础
-
-
-
-
-
-- [算法题](./algorithm.md)
-
-
 
 ## References
 
