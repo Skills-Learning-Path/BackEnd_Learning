@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--绑定一个指定的mapper接口-->
+<mapper namespace="com.dao.UserMapper">
+    <select id="getUserList" resultType="user">
+        select * from school.user;
+    </select>
+    <resultMap id="UserMap" type="user">
+<!--        column数据库中的列 property属性-->
+<!--        <result column="id" property="id"></result>-->
+<!--        <result column="username" property="username"></result>-->
+        <result column="password" property="pwd"></result>
+    </resultMap>
+    <select id="getUserById" parameterType="int" resultMap="UserMap">
+        select * from school.user where id = #{id};
+    </select>
+    <insert id="addUser" parameterType="com.pojo.User">
+        insert into school.user (id,username,password) values (#{id},#{username},#{password});
+    </insert>
+    <update id="updateUser" parameterType="com.pojo.User">
+        update school.user set username=#{username}, password=#{password} where id=#{id};
+    </update>
+    <delete id="delUser" parameterType="int">
+        delete from school.user where id=#{id};
+    </delete>
+
+</mapper>

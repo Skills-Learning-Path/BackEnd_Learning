@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--绑定一个指定的mapper接口-->
+<mapper namespace="com.dao.UserDao">
+    <select id="getUserList" resultType="com.pojo.User">
+        select * from school.user;
+    </select>
+    <select id="getUserById" parameterType="int" resultType="com.pojo.User">
+        select * from school.user where id = #{id};
+    </select>
+    <insert id="addUser" parameterType="com.pojo.User">
+        insert into school.user (id,username,password) values (#{id},#{username},#{password});
+    </insert>
+    <update id="updateUser" parameterType="com.pojo.User">
+        update school.user set username=#{username}, password=#{password} where id=#{id};
+    </update>
+    <delete id="delUser" parameterType="int">
+        delete from school.user where id=#{id};
+    </delete>
+    <insert id="addUser2" parameterType="map">
+        insert into school.user (id,username,password) values (#{id},#{username},#{password});
+    </insert>
+    <select id="getUserLike" resultType="com.pojo.User">
+        select * from school.user where username like "%"#{value}"%";
+    </select>
+    <select id="getUserLimit" parameterType="map" resultType="com.pojo.User">
+        select * from school.user limit #{startIndex},#{pageSize};
+    </select>
+    <select id="getUserLimit2" resultType="com.pojo.User">
+        select * from school.user;
+    </select>
+</mapper>
