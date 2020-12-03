@@ -1,0 +1,3 @@
+ Consume Time：3 ms 2020-12-03 16:50:11
+ Execute SQL：SELECT id,name,age,email,create_time,update_time,version,deleted FROM user WHERE deleted=0
+
