@@ -85,6 +85,7 @@
 -   [Quartz](./Java/Java-Web/后端/微服务/007.md)
 -   [Elastic Search](./Java/Java-Web/后端/微服务/008.md)
 -   [Sharding JDBC](./Java/Java-Web/数据库/MySQL/003.md)
+-   [RabbitMQ](./Java/Java-Web/后端/微服务/009.md)
 
 ## References
 
