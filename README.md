@@ -111,7 +111,7 @@
 - [计算机视觉](./newTech/003.pdf)
 - [自然语言处理](./newTech/004.pdf)
 - [量子计算](./newTech/005.pdf)
-- 区块链
+- [区块链](./newTech/006.pdf)
 
 ## References
 
