@@ -96,7 +96,7 @@
 - [Hive](./Java/大数据/004.pdf)
 - [Flume](./Java/大数据/005.pdf)
 - [Kafka](./Java/大数据/006.pdf)
-- HBase
+- [HBase](./Java/大数据/007.pdf)
 - Spark
 - Flink
 - [Azkaban](./Java/大数据/001.md)
