@@ -4,9 +4,7 @@
 
 **若图片无法正常显示，可以将仓库clone到本地查看**
 
-## Java
-
-### Java基础
+## Java基础
 
 -   [Java入门](./Java/Java-SE/000.md)
 -   [常见类与常用API](./Java/Java-SE/001.md)
@@ -26,7 +24,7 @@
 -   [Java虚拟机](./Java/Java-SE/015.md)
 -   [Java集合类分析](./Java/Java-SE/016.md)
 
-### Java Web
+## Java Web
 
 -   [MySQL数据库](./Java/Java-Web/数据库/MySQL/001.md)
 -   [JDBC](./Java/Java-Web/数据库/MySQL/002.md)
@@ -47,7 +45,7 @@
 -   [Java连接Redis](./Java/Java-Web/数据库/Redis/003.md)
 -   [Redis进阶](./Java/Java-Web/数据库/Redis/004.md)
 
-### Linux
+## Linux
 
 -   [Linux入门](./Java/Linux/系统/001.md)
 -   [Vim编辑器](./Java/Linux/系统/002.md)
@@ -63,14 +61,14 @@
 -   [Kubernetes](./Java/Linux/Docker/005.md)
 -   [Devops](./Java/Linux/Docker/004.md)
 
-### 常用框架
+## 常用框架
 
 -   [MyBatis](./Java/Java-Web/后端/框架/MyBatis相关/001.md)
 -   [MyBatis-Plus](./Java/Java-Web/后端/框架/MyBatis相关/002.md)
 -   [Spring](./Java/Java-Web/后端/框架/Spring相关/001.md)
 -   [SpringMVC](./Java/Java-Web/后端/框架/Spring相关/002.md)
 
-### 微服务
+## 微服务
 
 -   [SpringBoot简介](./Java/Java-Web/后端/微服务/001.md)
 -   [SpringSecurity + Shiro](./Java/Java-Web/后端/微服务/002.md)
@@ -80,7 +78,7 @@
 -   [SpringCloud](./Java/Java-Web/后端/微服务/006.md)
 
 
-### 高级专题
+## 高级专题
 
 -   [大前端](./Java/Java-Web/前端/基础/005.pdf)
 -   [Quartz](./Java/Java-Web/后端/微服务/007.md)
@@ -89,7 +87,7 @@
 -   [RabbitMQ](./Java/Java-Web/后端/微服务/009.md)
 -   [Netty](./Java/Java-Web/后端/微服务/010.md)
 
-### 大数据
+## 大数据
 
 - [Scala](./Java/大数据/011.pdf)
 - [Hadoop](./Java/大数据/002.pdf)
@@ -105,6 +103,15 @@
 - [Azkaban](./Java/大数据/001.md)
 - [Oozie](./Java/大数据/013.md)
 - [Sqoop](./Java/大数据/014.md)
+
+## 前沿技术
+
+- [强化学习](./newTech/001.pdf)
+- [机器学习](./newTech/002.pdf)
+- [计算机视觉](./newTech/003.pdf)
+- [自然语言处理](./newTech/004.pdf)
+- [量子计算](./newTech/005.pdf)
+- 区块链
 
 ## References
 
