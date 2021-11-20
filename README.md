@@ -92,7 +92,7 @@
 ### 大数据
 
 - [Hadoop](./Java/大数据/002.pdf)
-- Zookeeper
+- [Zookeeper](./Java/大数据/003.pdf)
 - Hive
 - Flume
 - Kafka
@@ -106,6 +106,8 @@
 -   https://space.bilibili.com/95256449/channel/index
 
 -   https://space.bilibili.com/425576028/channel/detail?cid=79628
+
+-   http://blog.sina.com.cn/s/articlelist_3272253032_3_2.html
 
 ## LICENSE
 
