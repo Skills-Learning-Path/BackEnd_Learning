@@ -102,7 +102,7 @@
 - [Storm](./Java/大数据/010.pdf)
 - [Azkaban](./Java/大数据/001.md)
 - [Oozie](./Java/大数据/013.md)
-- [Sqoop](./Java/大数据/014.md)
+- [Sqoop](./Java/大数据/014.pdf)
 
 ## 前沿技术
 
