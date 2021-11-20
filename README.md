@@ -104,6 +104,7 @@
 - [Storm](./Java/大数据/010.pdf)
 - [Azkaban](./Java/大数据/001.md)
 - [Oozie](./Java/大数据/013.md)
+- [Sqoop](./Java/大数据/014.md)
 
 ## References
 
@@ -112,6 +113,8 @@
 -   https://space.bilibili.com/425576028/channel/detail?cid=79628
 
 -   http://blog.sina.com.cn/s/articlelist_3272253032_3_2.html
+
+-   https://github.com/wzdnzd/bigdata-notes/tree/master/docs/%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3
 
 ## LICENSE
 
