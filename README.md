@@ -98,6 +98,7 @@
 - [Flume](./Java/大数据/005.pdf)
 - [Kafka](./Java/大数据/006.pdf)
 - [HBase](./Java/大数据/007.pdf)
+- [Impala](./Java/大数据/012.pdf)
 - [Spark](./Java/大数据/008.pdf)
 - [Flink](./Java/大数据/009.pdf)
 - [Storm](./Java/大数据/010.pdf)
