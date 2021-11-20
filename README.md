@@ -1,4 +1,4 @@
-# 后端相关
+# 技术相关
 
 学习笔记总结
 
@@ -93,7 +93,7 @@
 
 - [Hadoop](./Java/大数据/002.pdf)
 - [Zookeeper](./Java/大数据/003.pdf)
-- Hive
+- [Hive](./Java/大数据/004.pdf)
 - Flume
 - Kafka
 - HBase
